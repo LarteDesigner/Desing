@@ -40,7 +40,7 @@ main{
 }
 
 .tituloDesign{
-    font-size: 45px;
+    font-size: 65px;
     margin: 15px;
     font-family:serif;
     font-style: italic;
@@ -48,12 +48,12 @@ main{
 }
 
 .tituloQuemSomos{
-    font-size: 18px;
+    font-size: 22px;
     color: #283618;
 }
 
 .QuemSomosDados{
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
     width: 300px;
     color: brown;
@@ -72,15 +72,15 @@ main{
 }
 
 .iconImg{
-    width: 240px;
-    height: 190px;
+    width: 290px;
+    height: 230px;
 }
 
 
 
 .ator-atendimanto{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     margin-bottom: 10px;
 }
