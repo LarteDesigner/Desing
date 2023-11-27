@@ -39,7 +39,7 @@ main{
 }
 
 .tituloDesign{
-    font-size: 35px;
+    font-size: 45px;
     margin: 15px;
     font-family:serif;
     font-style: italic;
@@ -47,12 +47,12 @@ main{
 }
 
 .tituloQuemSomos{
-    font-size: 16px;
+    font-size: 18px;
     color: #283618;
 }
 
 .QuemSomosDados{
-    font-size: 14px;
+    font-size: 15px;
     text-align: center;
     width: 300px;
     color: brown;
@@ -90,10 +90,18 @@ main{
     align-items: center;
 }
 
+.ator-hablidades:hover .ator{
+    transition: 1s;
+    width: 150px;
+    height: 150px;
+
+}
+
 .ator{
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     border-radius: 360px;
+    transition: 1s;
 }
 
 .nome-habilidades{
@@ -129,6 +137,31 @@ main{
     width: 250px;
     height: 140px;
     border-radius: 5px;
+    transition: 1s;
+}
+
+.card-flela:hover{
+    transition: 1s;
+    width: 300px;
+    height: 180px;
+}
+
+.card-flela:hover .titulo-flela,
+.card-flela:hover .Contato-titulo {
+    transition: 0.5s;
+    color: white;
+    font-style: italic;
+    margin: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+
+.card-flela:hover .servicos{
+    transition: 0.5s;
+    color: white;
+    margin: 2px;
+    font-size: 20px;
 }
 
 .elips{
@@ -166,6 +199,12 @@ main{
     display: flex;
     flex-direction: column;
     padding-left: 20px;
+    height: 220px;
+}
+
+.dadosContatos{
+    display: flex;
+    align-items: center;
 }
 
 .dados{
