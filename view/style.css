@@ -202,6 +202,10 @@ main{
     height: 220px;
 }
 
+.contatos{
+    width: 300px;
+}
+
 .dadosContatos{
     display: flex;
     align-items: center;
@@ -250,5 +254,9 @@ main{
 
     .tituloDesign{
         font-size: 40px;
+    }
+
+    .dados{
+        width: 300px;
     }
 }
