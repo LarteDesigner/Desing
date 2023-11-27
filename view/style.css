@@ -1,0 +1,192 @@
+body{
+    background-color: #FEFAE0;
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: 4px; /* Largura da barra de rolagem */
+  }
+  /* Estiliza o controle */
+  ::-webkit-scrollbar-thumb {
+    background-color: #663A14; /* Cor do controle */
+    border-radius: 6px;
+  }
+  /* Estiliza a trilha */
+  ::-webkit-scrollbar-track {
+    background-color: #FEFAE0; /* Cor da trilha */
+  }
+  
+
+main{
+    background-image: url('./src/dot-grid.png');
+    width: 100%;
+    height: 100%;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.tituloQuemSomos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tituloDesign{
+    font-size: 35px;
+    margin: 15px;
+    font-family:serif;
+    font-style: italic;
+    color: #663A14;
+}
+
+.tituloQuemSomos{
+    font-size: 16px;
+    color: #283618;
+}
+
+.QuemSomosDados{
+    font-size: 14px;
+    text-align: center;
+    width: 300px;
+    color: brown;
+}
+
+.line{
+    height: 120px;
+    width: 0.5px;
+    background-color: #283618;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#lineTitulo{
+    height: 250px;
+}
+
+.iconImg{
+    width: 240px;
+    height: 190px;
+}
+
+
+
+.ator-atendimanto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.ator-hablidades{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ator{
+    width: 80px;
+    height: 80px;
+    border-radius: 360px;
+}
+
+.nome-habilidades{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    text-align: right;
+}
+
+.funcao{
+    color: #663A14;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.nome{
+    color: #663A14;
+}
+
+.habilidades{
+    width: 100px;
+}
+
+.habilidadesDados{
+    width: 10px;
+    color: #663A14;
+}
+
+.card-flela{
+    background-color: #3E9079;
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 140px;
+    border-radius: 5px;
+}
+
+.elips{
+    width: 10px;
+    height: 10px;
+    background-color: #283618;
+    border-radius: 360px;
+    margin-top: 10px;
+}
+
+#line-frela{
+    background-color: #FEFAE0;
+}
+
+.Atendimento-freela{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titulo-flela, .Contato-titulo{
+    color: white;
+    font-style: italic;
+    margin: 10px;
+    margin-bottom: 15px;
+}
+
+.servicos{
+    color: white;
+    margin: 2px;
+}
+
+.contato{
+    background-color: #CB2E00;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.dados{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    width: 150px;
+}
+.dadosContato{
+    transition: 1s;
+    width: 100px;
+    color: white;
+    margin-left: 10px;
+}
+
+.dadosContato, .imgMidias{
+    cursor: pointer;
+}
+
+.dadosContato:hover{
+    transition: 1s;
+    margin-left: 20px;
+    color: #3E9079;
+}
