@@ -219,7 +219,7 @@ main{
 }
 .dadosContato{
     transition: 1s;
-    width: 100px;
+    width: 180px;
     color: white;
     margin-left: 10px;
 }
@@ -254,9 +254,5 @@ main{
 
     .tituloDesign{
         font-size: 35px;
-    }
-
-    .dados{
-        width: 300px;
     }
 }
