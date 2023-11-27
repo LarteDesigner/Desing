@@ -229,3 +229,22 @@ main{
     margin-left: 20px;
     color: #3E9079;
 }
+
+
+
+@media screen and (max-width: 1024px) {
+    .titulo{
+        display: flex;
+        flex-direction:column-reverse;
+    }
+
+    #lineTitulo{
+        width: 250px;
+        height: 0.5px;
+    }
+
+    .ator-atendimanto{
+        display: flex;
+        flex-direction: column;
+    }
+}
