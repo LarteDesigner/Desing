@@ -247,4 +247,8 @@ main{
         display: flex;
         flex-direction: column;
     }
+
+    .tituloDesign{
+        font-size: 40px;
+    }
 }
