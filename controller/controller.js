@@ -23,7 +23,7 @@ btnWhatsApp.addEventListener('click', () => {
 
 btnInstagram.addEventListener('click', () => {
 
-    var nomeUsuario = "hidekii.ac";
+    var nomeUsuario = "l_arte_design";
     
     var linkInstagram = "https://www.instagram.com/" + nomeUsuario;
 

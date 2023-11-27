@@ -222,6 +222,12 @@ main{
     width: 180px;
     color: white;
     margin-left: 10px;
+    border-bottom: 1px solid white;
+    font-weight: bolder;
+}
+
+#dadosContatoEmail{
+    width: 250px;
 }
 
 .dadosContato, .imgMidias{
