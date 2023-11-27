@@ -249,12 +249,19 @@ main{
         flex-direction:column-reverse;
     }
 
+    .iconImg{
+        margin-top: 70px;
+        width: 250px;
+        height: 190px;
+    }
+
     #lineTitulo{
         width: 250px;
         height: 0.5px;
     }
 
     .ator-atendimanto{
+        margin-top: 60px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
